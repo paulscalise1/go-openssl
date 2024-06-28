@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // +build !cgo
-
+/*
 package openssl
 
 import (
@@ -160,3 +160,4 @@ func LoadCertificateFromPEM(pem_block []byte) (*Certificate, error)
 func (c *Certificate) MarshalPEM() (pem_block []byte, err error)
 
 func (c *Certificate) PublicKey() (PublicKey, error)
+*/
